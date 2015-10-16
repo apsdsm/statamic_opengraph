@@ -1,0 +1,69 @@
+# These are the field sets for the connection section
+
+title: connect
+hide: true
+
+fields:
+
+  connect_section:
+    display: Connect
+    type: section
+    instructions: Choose how people can connect with you
+  
+  contact_data:
+    display: Contact Methods
+    instructions: You can add ways for people to contact you here
+    type: grid
+    starting_rows: 0
+    min_rows: 0
+
+    fields:
+      contact_type:
+        display: Type
+        type: select
+        options:
+          telephone: telephone
+          email: email
+          FAX: FAX
+
+      contact_detail:
+        display: URL
+        type: text
+        instructions: This is the information for the contact (e.g., phone number)
+
+      contact_caption:
+        display: Caption
+        type: text
+        instructions: An optional caption for this service
+
+  social_networks:
+    display: Networks
+    type: grid
+    starting_rows: 0
+    min_rows: 0
+
+    fields:
+      network_type:
+        display: Network
+        type: select
+        options:
+          facebook: Facebook
+          twitter: Twitter
+          instagram: Instagram
+          pinterest: Pinterest
+          linkedin: Linked In
+          google: Google+
+          
+      network_url:
+        display: URL
+        type: text
+        instructions: The address of your account on this service
+
+      newtork_caption:
+        display: Caption
+        type: text
+        instructions: An optional caption for this service
+
+
+
+

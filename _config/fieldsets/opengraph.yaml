@@ -1,0 +1,27 @@
+title: opengraph
+hide: true
+fields:
+  opengraph:
+    display: OpenGraph
+    type: section
+    intructions: Enter overrides for opengraph data here
+  og_title:
+    type: text
+    display: Title
+    instructions: If you want to give this content a different name from its default title
+  og_description:
+    type: limited
+    limit: 155
+    display: Description
+    instructions: Write a description of the page contents here
+  og_image:
+    type: file
+    display: Image
+    instructions: Select a preview image
+    allowed: [ png, jpg, jpeg, gif ]
+    destination: assets/opengraph/
+    max_files: 1
+    resize:
+      width: 1000
+      quality: 60
+    

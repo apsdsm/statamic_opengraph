@@ -1,0 +1,20 @@
+#####################
+#                    ##
+# Open Graph Settings  ##
+#                     ##
+#####################
+
+# The fallback image for when none is specified
+# default_image: /assets/img/all_the_things.jpg
+
+# The fallback description for when none is specified
+default_description: "This is a default description - you'll want to change it to something more appropriate."
+
+# who you're called on twitter (without the @)
+twitter: apsdsm
+
+# this is the message that will accompany the URL on tweets
+twitter_default_message: "Check out this awesome page!"
+
+# this is your google analyticcs key, use it for the analytics method
+google_analytics_key: WRITE-YOUR-KEY-HERE
